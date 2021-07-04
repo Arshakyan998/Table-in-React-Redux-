@@ -24,6 +24,12 @@ function GetTables({btn}) {
 
         const changeState=(val)=>{
                 setValue(val)
+
+                if(val.name===""&&val.phone===""){
+                        setValue("")
+
+                }
+
         }
 
        

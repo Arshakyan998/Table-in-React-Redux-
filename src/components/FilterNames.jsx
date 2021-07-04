@@ -16,6 +16,7 @@ function FilterNames({ changeStateTable }) {
   const changeState = (e) => {
     if (e.key === "Enter") {
       changeStateTable(search);
+     
 
       setSearch({
         name: "",

@@ -110,7 +110,7 @@ changeRevrse()
           <tfoot>
          <tr>
           {
-         rendering.length<32?<td><button className="btn ml-15" onClick={renderAlltable}> 
+         rendering.length<30?<td><button className="btn ml-15" onClick={renderAlltable}> 
          Вернутся назад
          </button></td>:""
           }
